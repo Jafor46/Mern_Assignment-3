@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #222;
+}
+/* Navbar Start */
+.nav-container {
+  background-color: #222;
+  color: white;
+  width: 100%;
+  padding: 20px 40px;
+}
+.nav {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.navbar-left-side {
+  display: flex;
+
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.navbar-image {
+}
+#name {
+  line-height: 1.5px;
+  letter-spacing: 0.2rem;
+}
+.logo-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.navbar-center-side {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.menu-icon {
+  display: none;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+.menu a:hover {
+  color: blue;
+}
+.navbar-right-side {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.line{
+  width: 100%;
+  height: 2px;
+  background-color: dimgray;
+}
+/* Navbar End */
+
+/* Responsive Navbar Start*/
+@media screen and (max-width: 466px) {
+  #name {
+    line-height: 1.5;
+    letter-spacing: 0.2rem;
+  }
+}
+@media screen and (max-width: 573px) {
+  .menu {
+    display: none;
+  }
+  .menu-icon {
+    display: flex;
+  }
+}
+/* Responsive Navbar End*/
+
+/* Hero Section Start */
+.hero-container {
+  background-color: #222;
+  color: white;
+  width: 100%;
+  padding: 20px 40px;
+  display: block;
+  margin: 0 auto;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-left-part {
+  padding: 20px 40px;
+  text-align: center;
+  flex: 1;
+}
+.hero-image {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.hero-name {
+  font-size: 60px;
+  line-height: 1.5;
+  letter-spacing: 0.2rem;
+}
+.hero-right-part {
+  padding: 20px 40px;
+  flex: 1;
+}
+.description {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.5;
+  text-align: justify;
+}
+/* Hero Section End */
+/* Responsive Hero Section Start */
+
+@media screen and (max-width: 573px) {
+  .hero {
+    display: block;
+  }
+  .description {
+    /*text-align: center;*/
+  }
+}
+
+/* Responsive Hero section End */
+
+/* Skill Section Start */
+.skill-container {
+  background-color: #222;
+  color: white;
+  width: 100%;
+  padding: 20px 40px;
+}
+.skill-title{
+  font-size: 60px;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+}
+.listsofskills{
+  font-size: 24px;
+  line-height: 1.5;
+  padding: 20px 40px;
+}
+/* Skill Section End */
+
+/* Service Section Start */
+.Service-container {
+  background-color: #222;
+  color: white;
+  width: 100%;
+  padding: 20px 40px;
+}
+.service-title{
+  font-size: 60px;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+}
+.service{
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 20px 40px;
+}
+/* Service Section End */
+
+/* Contact Section Start */
+.contact-container{
+  background-color: #222;
+  color: white;
+  width: 100%;
+  padding: 20px 40px;
+}
+.section-title{
+  font-size: 60px;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+}
+.contact-number,.email{
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 20px 40px;
+}
+/* Contact Section End */
+
+/* Footer Section Start */
+.footer-container{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(1,minmax(0,1fr));
+  text-align: center;
+  background-color: #222;
+  color: white;
+  padding: 0 0 10px 0;
+}
+/* Footer Section End */
+
